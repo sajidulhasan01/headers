@@ -1,0 +1,104 @@
+/* header start */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    border-bottom: 1px solid gray;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.logo {
+    width: 10%;
+    float: left;
+}
+
+.logo a img {
+    width: 170px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.menu {
+    width: 40%;
+    float: right;
+}
+
+.menu ul {
+    list-style: none;
+    float: right;
+}
+
+.menu ul li {
+    float: left;
+}
+
+.menu ul li a {
+    margin: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    color: teal;
+}
+
+.menu ul li a:hover {
+    background-color: teal;
+    color: white;
+}
+
+
+/* header end */
+
+a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+}
+
+.np {
+    text-decoration: none;
+    color: teal;
+    padding: 5px;
+}
+
+.page {
+    margin: 10px 5px;
+}
+
+.css h1 {
+    color: darkred;
+}
+
+.link {
+    color: darkred;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: white;
+    background-color: darkred;
+}
+
+.out {
+    outline: dotted red;
+    width: 50%;
+}
+
+.div {
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+
+.pad {
+    padding: 70px;
+    border: 1px solid brown;
+}
